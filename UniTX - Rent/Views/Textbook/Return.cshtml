@@ -1,0 +1,39 @@
+﻿@model UniTX___Rent.Models.RRHModel.RRHModel
+
+<div class="container">
+    <div class="header clearfix">
+        <h2 class="text-muted">Return Item</h2>
+    </div>
+
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col">
+                <a asp-controller="Textbook" asp-action="Detail" asp-route-id="@Model.bookId" class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">navigate_before</i></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-sm-12 col-lg-6 d-flex justify-content-center">
+                <div>
+                    <p class="h5">@Model.Title</p>
+                    <img src="@Model.ImageUrl" style="width:100%" />
+                </div>
+            </div>
+
+            <div class="col col-sm-12 col-lg-6 mt-5">
+                @using (Html.BeginForm("PlaceReturn", "Textbook", FormMethod.Post))
+                {
+                    @Html.HiddenFor(a => a.bookId)
+                    <div class="input-field">
+                        @Html.TextBoxFor(a => a.CardId)
+                        <label class="active" for="" CardId"">Rent Card ID</label>
+                    </div>
+                    <div>
+                        <button type="submit" class="waves-effect waves-light btn orange darken-3"><p class="white-text">Return</p></button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+</div>

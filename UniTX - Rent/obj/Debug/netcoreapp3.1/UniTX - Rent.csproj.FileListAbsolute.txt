@@ -1,0 +1,82 @@
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\UniTX - Rent.exe
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\UniTX - Rent.csprojAssemblyReference.cache
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\UniTX - Rent.AssemblyInfoInputs.cache
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\UniTX - Rent.AssemblyInfo.cs
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\UniTX - Rent.RazorAssemblyInfo.cache
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\UniTX - Rent.RazorAssemblyInfo.cs
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\UniTX - Rent.TagHelpers.input.cache
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\UniTX - Rent.TagHelpers.output.cache
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\UniTX - Rent.RazorCoreGenerate.cache
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\UniTX - Rent.RazorTargetAssemblyInfo.cache
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\UniTX - Rent.RazorTargetAssemblyInfo.cs
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\staticwebassets\UniTX - Rent.StaticWebAssets.Manifest.cache
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\staticwebassets\UniTX - Rent.StaticWebAssets.xml
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\UniTX - Rent.csproj.CopyComplete
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\UniTX - Rent.deps.json
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\UniTX - Rent.runtimeconfig.json
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\UniTX - Rent.runtimeconfig.dev.json
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\UniTX - Rent.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\UniTX - Rent.pdb
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\UniTX - Rent.Views.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\UniTX - Rent.Views.pdb
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\RentData.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\RentData.pdb
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\UniTX - Rent.csproj.CoreCompileInputs.cache
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\UniTX - Rent.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\UniTX - Rent.Views.pdb
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\UniTX - Rent.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\UniTX - Rent.pdb
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\UniTX - Rent.genruntimeconfig.cache
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\RentServices.dll
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\bin\Debug\netcoreapp3.1\RentServices.pdb
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\Razor\Views\Textbook\Index.cshtml.g.cs
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\Razor\Views\Textbook\Detail.cshtml.g.cs
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\Razor\Views\Textbook\Hold.cshtml.g.cs
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\Razor\Views\Textbook\Rent.cshtml.g.cs
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\Razor\Views\Textbook\Return.cshtml.g.cs
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\Razor\Views\Renter\Detail.cshtml.g.cs
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\Razor\Views\Renter\SignOn.cshtml.g.cs
+C:\Users\R. Fan\Source\Repos\UniTX - Rent\UniTX - Rent\obj\Debug\netcoreapp3.1\Razor\Views\Renter\Join.cshtml.g.cs

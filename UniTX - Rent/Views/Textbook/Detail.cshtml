@@ -1,0 +1,120 @@
+﻿@model UniTX___Rent.Models.Textbook.TextbookDetailModel
+
+<div class="container">
+    <div class="page-header clearfix">
+        <h2 class="text-muted">View Textbook</h2>
+    </div>
+</div>
+
+<div class="jumbotron">
+    <div class="row">
+        <div class="col">
+            <a asp-controller="Textbook" asp-action="Index" class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">navigate_before</i></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-sm-12 col-lg-6 d-flex justify-content-center">
+            <img class="responsive-img" src="@Model.ImageUrl">
+        </div>
+
+        <div class="col col-sm-12 col-lg-6">
+            <p class="flow-text"><b>@Model.Title</b></p>
+            <p class="text-muted hide-on-large-only">Cost: $@Model.Cost</p>
+            <p class="display-3 text-muted hide-on-med-and-down">Cost: $@Model.Cost</p>
+            <p class="lead">Total number of copies: @Model.NumberOfCopies</p>
+
+
+            @if (Model.Status == "All Out" || Model.Status == "On Hold")
+            {
+                <p class="lead">Already rented out: @Model.NumberOfRentOuts</p>
+                <div>
+                    <a class="waves-effect waves-light btn-large teal darken-3 mr-3 mt-3" role="button" asp-controller="Textbook" asp-action="Return" asp-route-id="@Model.BookId">Return</a>
+                    <a class="waves-effect waves-light btn-large orange darken-3 mt-3" role="button" asp-controller="Textbook" asp-action="Hold" asp-route-id="@Model.BookId">Place Hold</a>
+                </div>
+            }
+
+            @if (Model.Status == "Rent Out")
+            {
+                <p class="lead">Already rented out: @Model.NumberOfRentOuts</p>
+                <div>
+                    <a class="waves-effect waves-light btn-large blue darken-3 mr-3 mt-3" role="button" asp-controller="Textbook" asp-action="Rent" asp-route-id="@Model.BookId">Rent</a>
+                    <a class="waves-effect waves-light btn-large orange darken-3 mt-3" role="button" asp-controller="Textbook" asp-action="Return" asp-route-id="@Model.BookId">Return</a>
+                </div>
+            }
+
+            @if (Model.Status == "All In")
+            {
+                <a class="waves-effect waves-light btn-large blue darken-3" role="button" asp-controller="Textbook" asp-action="Rent" asp-route-id="@Model.BookId"><p class="white-text">Rent</p></a>
+            }
+
+        </div>
+
+        <div class="sol col-sm-12 col-lg-6 mt-5 white">
+            <h4>Rent History</h4>
+            <table class="table table-bordered table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th>Date Rented</th>
+                        <th>Date Returned</th>
+                        <th>Renter</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var rent in @Model.RentHistory)
+                    {
+                        <tr>
+                            <td>
+                                @rent.RentedOut
+                            </td>
+
+                            @if (@rent.Returned.ToString() == "0001-01-01 12:00:00 AM")
+                            {
+                                <td>
+                                    NYR
+                                </td>
+                            }
+                            else
+                            {
+                                <td>
+                                    @rent.Returned
+                                </td>
+                            }
+
+                            <td>
+                                @rent.Renter.FirstName
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+        </div>
+
+        <div class="col col-sm-12 col-lg-6 mt-5 white">
+            <h4>Current Holds</h4>
+            <table class="table table-bordered table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th>Hold Placed</th>
+                        <th>Renter</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var hold in @Model.CurrentHolds)
+                    {
+                        <tr>
+                            <td>
+                                @hold.HoldPlaced
+                            </td>
+                            <td>
+                                @hold.RenterName
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+

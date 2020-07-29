@@ -1,0 +1,108 @@
+﻿@model UniTX___Rent.Models.Renter.RenterDetailModel
+
+<div class="container">
+    <div class="page-header clearfix">
+        <h2 class="text-muted">Account Detail</h2>
+    </div>
+</div>
+
+<div class="jumbotron">
+    <div class="row">
+        <div class="col">
+            <a asp-controller="Home" asp-action="Index" class="btn-floating halfway-fab waves-effect waves-light black"><i class="material-icons">navigate_before</i></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col col-sm-12 col-lg-6">
+            <h2>@Model.FullName</h2>
+            <p>Address: @Model.Address</p>
+            <p id="patronTel">Telephone: @Model.Telephone</p>
+
+            @if (@Model.OverdueFees > 0)
+            {
+                <p>Current Fees Due: $@Model.OverdueFees</p>
+            }
+            else
+            {
+                <p>No Fees Currently Due.</p>
+            }
+        </div>
+
+        <div class="col col-sm-12 col-lg-6 white">
+            <h4>Rented</h4>
+            <table class="table table-bordered table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th>Textbook</th>
+                        <th>Since</th>
+                        <th>Until</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var rent in Model.TXRented)
+                    {
+                        <tr>
+                            <td>@rent.Textbook.Title</td>
+                            <td>@rent.Since</td>
+                            <td>@rent.Until</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col col-sm-12 col-lg-6 mt-5 white">
+            <h4>Holds</h4>
+            <table class="table table-bordered table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th>Textbook</th>
+                        <th>Hold Placed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var rent in Model.Holds)
+                    {
+                        <tr>
+                            <td>@rent.Textbook.Title</td>
+                            <td>@rent.HoldPlaced</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col col-sm-12 col-lg-6 mt-5 white">
+            <h4>Rent History</h4>
+            <table class="table table-bordered table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th>Textbook</th>
+                        <th>Rented Out</th>
+                        <th>Returned</th>
+                        <th>Late Fine</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var rh in @Model.RentHistory)
+                    {
+                    <tr>
+                        <td>
+                            @rh.TXTitle
+                        </td>
+                        <td>
+                            @rh.RentedOut
+                        </td>
+                        <td>
+                            @rh.Returned
+                        </td>
+                        <td>
+                            @rh.LateFine
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

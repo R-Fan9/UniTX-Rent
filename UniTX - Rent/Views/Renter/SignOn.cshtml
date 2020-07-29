@@ -1,0 +1,26 @@
+﻿@model UniTX___Rent.Models.SignOnModel.SignOnModel
+
+<div class="container">
+    <div class="header clearfix">
+        <h2 class="text-muted">Sign On</h2>
+    </div>
+
+    <div class="jumbotron">
+        <div class="row">
+
+            <div class="col col-sm-12 col-lg-6 mt-5">
+                @using (Html.BeginForm("PlaceSignOn", "Renter", FormMethod.Post))
+                {
+                    <div class="input-field">
+                        @Html.TextBoxFor(a => a.CardId)
+                        <label class="active" for="CardId">Rent Card ID</label>
+                    </div>
+                    <div>
+                        <button type="submit" class="waves-effect waves-light btn teal darken-3"><p class="white-text">Sign On</p></button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+</div>

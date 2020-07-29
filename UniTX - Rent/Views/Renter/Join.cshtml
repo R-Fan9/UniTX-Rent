@@ -1,0 +1,46 @@
+﻿@model UniTX___Rent.Models.JoinModel.JoinModel
+
+    <div class="container">
+        <div class="header clearfix">
+            <h2 class="text-muted">Join</h2>
+        </div>
+
+        <div class="jumbotron">
+            <div class="row">
+
+                <div class="col col-sm-12 col-lg-6 mt-5">
+                    @using (Html.BeginForm("PlaceJoin", "Renter", FormMethod.Post))
+                    {
+                        <div class="input-field">
+                            @Html.TextBoxFor(a => a.FirstName)
+                            <label class="active" for="FirstName">FirstName</label>
+                        </div>
+                        <div class="input-field">
+                            @Html.TextBoxFor(a => a.LastName)
+                            <label class="active" for="LastName">LastName</label>
+                        </div>
+                        <div class="input-field">
+                            @Html.TextBoxFor(a => a.Email)
+                            <label class="active" for="Email">Email</label>
+                        </div>
+                        <div class="input-field">
+                            @Html.TextBoxFor(a => a.Telephone)
+                            <label class="active" for="Telephone">Telephone</label>
+                        </div>
+                        <div class="input-field">
+                            @Html.TextBoxFor(a => a.Address)
+                            <label class="active" for="Address">Address</label>
+                        </div>
+                        <div class="input-field">
+                            @Html.TextBoxFor(a => a.CardID)
+                            <label class="active" for="CardID">CardID</label>
+                        </div>
+                        <div>
+                            <button type="submit" class="waves-effect waves-light btn teal darken-3"><p class="white-text">Sign On</p></button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+    </div>

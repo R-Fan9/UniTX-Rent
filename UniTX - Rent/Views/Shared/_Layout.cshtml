@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - UniTX - Rent</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body class="grey darken-4">
+    <header>
+        <nav class="black" role="navigation">
+            <div class="nav-wrapper container">
+                <a class="brand-logo center" asp-area="" asp-controller="Home" asp-action="Index"><p class="flow-text"><i class="material-icons">layers</i> UniTX - Rent</p></a>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="waves-effect waves-light btn amber darken-4 white-text" asp-controller="Renter" asp-action="Join">Join <i class="material-icons">merge</i></a></li>
+                </ul>
+
+                <ul class="sidenav" id="nav-mobile">
+                    <li><a asp-controller="Renter" asp-action="Join">Join</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-3">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer black white-text">
+        <div class="container">
+            &copy; 2020 - UniTX - Rent
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+    @RenderSection("Styles", required: false)
+</body>
+</html>
